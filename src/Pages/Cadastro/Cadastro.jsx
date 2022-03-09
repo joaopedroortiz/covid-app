@@ -1,14 +1,11 @@
 import React from "react";
 import "./Cadastro.css";
-import Title from "./Components/Title/Title";
+
 import Input from "./Components/Input/Input";
 
 const Cadastro = () => {
   return (
     <div className="container-cadastro">
-      <div className="container-title">
-        <Title text="Cadastro" />
-      </div>
       <div className="container-nome">
         <Input
           attribute={{
