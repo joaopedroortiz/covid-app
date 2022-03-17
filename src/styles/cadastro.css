@@ -1,17 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-  font-family: "Roboto", sans-serif;
-  background: #fff;
-}
 .container-cadastro {
+  background: #ffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,7 +8,6 @@ body {
   margin: 50px auto;
   max-width: 1200px;
   width: 25%;
-  border: 1px solid rgb(112, 110, 110);
   border-radius: 25px;
 }
 .container-nome {
@@ -78,22 +66,3 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #19888c;
-  border-radius: 10px;
-  border: 0;
-  color: #fff;
-  cursor: pointer;
-  font-size: 22px;
-  padding: 15px 60px;
-  margin: 10px 10px;
-  transition: 0.2s;
-}
-
-.btn:hover {
-  background: #0dafb4;
-  transform: translateY(-2px);
-}

@@ -1,5 +1,6 @@
 import React from "react";
-import "./Menu.css";
+import "../styles/global.css";
+import "../styles/menu.css";
 
 function Menu() {
   return (

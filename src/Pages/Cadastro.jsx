@@ -1,7 +1,8 @@
 import React from "react";
-import "./Cadastro.css";
-
-import Input from "./Components/Input/Input";
+import "../styles/global.css";
+import "../styles/cadastro.css";
+import Button from "../components/Button";
+import Input from "../components/Input/Input";
 
 const Cadastro = () => {
   return (
@@ -76,7 +77,7 @@ const Cadastro = () => {
         />
       </div>
       <div>
-        <button className="btn">Cadastrar</button>
+        <Button />
       </div>
     </div>
   );
