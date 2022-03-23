@@ -1,8 +1,12 @@
 import React from "react";
 import "../styles/button.css";
 
-function Button() {
-  return <button className="btn">Cadastrar</button>;
-}
+const Button = () => {
+  return (
+    <div>
+      <button className="btn">Login</button>
+    </div>
+  );
+};
 
 export default Button;

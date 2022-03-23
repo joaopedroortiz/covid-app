@@ -6,7 +6,7 @@ import Input from "../components/Input/Input";
 
 const Cadastro = () => {
   return (
-    <div className="card-cadastro">
+    <div className="container-card">
       <div className="container-nome">
         <Input
           attribute={{
@@ -79,7 +79,7 @@ const Cadastro = () => {
         />
       </div>
       <div>
-        <Button />
+        <button className="btn">Cadastro</button>
       </div>
     </div>
   );
