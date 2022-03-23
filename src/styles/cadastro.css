@@ -1,14 +1,18 @@
 
-.container-cadastro {
-  background: #ffff;
+.card-cadastro {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:center;
   justify-content: center;
-  margin: 50px auto;
-  max-width: 1200px;
-  width: 25%;
-  border-radius: 25px;
+  position:absolute;
+  width: 360px;
+  height: 640px;
+  left: 537px;
+  top: 32px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
 }
 .container-nome {
   position: relative;
@@ -22,29 +26,37 @@
   margin: 0 auto;
   margin-bottom: 1.5rem;
 }
+.container-gen-tel{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
 .container-telefone {
   position: relative;
-  width: 75%;
-  margin: 0 auto;
+  width: 100%;
+  right: 30px;
+  margin: 0 15px;
   margin-bottom: 1.5rem;
 }
 .container-genero {
   position: relative;
-  width: 75%;
-  margin: 0 auto;
+  width: 100%;
+  left: 30px;
+  margin: 0 15px;
   margin-bottom: 1.5rem;
 }
 .genero {
   width: 100%;
   height: 35px;
-  border-radius: 10px;
-  border: 1px solid gray;
+  border-radius: 6px;
+  border: 1px solid #E2E8F0;
   padding: 0 10px 0 20px;
   box-sizing: border-box;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: gray;
   font-size: 14px;
   outline: none;
+  background:#ffffff;
 }
 .container-nacionalidade {
   position: relative;

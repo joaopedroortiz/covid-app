@@ -6,7 +6,7 @@ import Input from "../components/Input/Input";
 
 const Cadastro = () => {
   return (
-    <div className="container-cadastro">
+    <div className="card-cadastro">
       <div className="container-nome">
         <Input
           attribute={{
@@ -27,23 +27,25 @@ const Cadastro = () => {
           }}
         />
       </div>
+      <div className="container-gen-tel">
+        <div className="container-genero">
+          <select name="genero" id="genero" className="genero">
+            <option value="">Genero</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Feminino</option>
+          </select>
+        </div>
 
-      <div className="container-genero">
-        <select name="genero" id="genero" className="genero">
-          <option value="">Genero</option>
-          <option value="masculino">Masculino</option>
-          <option value="femenino">Feminino</option>
-        </select>
-      </div>
-      <div className="container-telefone">
-        <Input
-          attribute={{
-            id: "telefone",
-            name: "telefone",
-            type: "number",
-            placeholder: "Telefone",
-          }}
-        />
+        <div className="container-telefone">
+          <Input
+            attribute={{
+              id: "telefone",
+              name: "telefone",
+              type: "number",
+              placeholder: "Telefone",
+            }}
+          />
+        </div>
       </div>
 
       <div className="container-nacionalidade">

@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import Cadastro from "./Pages/Cadastro.jsx";
 import Menu from "./Pages/Menu.jsx";
 
@@ -8,7 +7,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Menu />} />
+          <Route path="/menu" element={<Menu />} />
           <Route path="/cadastro" element={<Cadastro />} />
         </Routes>
       </BrowserRouter>
