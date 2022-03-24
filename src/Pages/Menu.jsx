@@ -4,9 +4,11 @@ import "../styles/menu.css";
 
 function Menu() {
   return (
-    <div className="menu-body">
+    <div className="container-card-green">
+      <div id="close">
+        <span>X</span>
+      </div>
       <div className="menu-box">
-        <div id="close">X</div>
         <p className="menu-text">Notificações</p>
         <div className="divider"></div>
         <p className="menu-text">Notícias</p>

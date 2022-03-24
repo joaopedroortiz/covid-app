@@ -1,16 +1,4 @@
 
-.menu-body{
-    background-color: #339EA3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 50px auto;
-    max-width: 1200px;
-    width: 25%;
-    border: 1px solid rgb(112, 110, 110);
-    border-radius: 25px;
-}
 
 .menu-box{
     width:70%;
@@ -34,7 +22,11 @@
 }
 
 
-#close{
-    float: right;
-
+span{
+    color: #29464E;
+    background: #339EA3;
+    margin-left: 200px;
+    font-size: 18px;
+    border: 1px solid #d4d4d4;
+    border-radius: 25px;
 }
