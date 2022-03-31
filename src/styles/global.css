@@ -1,31 +1,39 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    font-family: "Roboto", sans-serif;
-    background: #dcdcdc;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.base-container {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background: #dcdcdc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.padeCadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container-card {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   justify-content: center;
-  position:absolute;
-  width: 360px;
+  position: absolute;
+  width: 470px;
   height: 640px;
-  left: 537px;
-  top: 32px;
-  background: #FFFFFF;
+  background: #ffffff;
   mix-blend-mode: normal;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
+<<<<<<< HEAD
 }
 .container-card-green {
   display: flex;
@@ -42,3 +50,20 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
 }
+=======
+  display: flex;
+}
+
+@media (max-width: 640px) {
+  .container-card {
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .menu-background {
+    height: 100%;
+    border-radius: 0;
+  }
+}
+>>>>>>> develop
