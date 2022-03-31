@@ -1,8 +1,8 @@
-import React from 'react';
-import '../styles/global.css';
-import '../styles/cadastro.css';
+import React from "react";
+import "../styles/global.css";
+import "../styles/cadastro.css";
 // import Button from "../components/Button";
-import Input from '../components/Input/Input';
+import Input from "../components/Input/Input";
 
 const Cadastro = () => {
   return (
@@ -11,20 +11,20 @@ const Cadastro = () => {
         <div className="container-nome">
           <Input
             attribute={{
-              id: 'nome',
-              name: 'nome',
-              type: 'text',
-              placeholder: 'Nome',
+              id: "nome",
+              name: "nome",
+              type: "text",
+              placeholder: "Nome",
             }}
           />
         </div>
         <div className="container-email">
           <Input
             attribute={{
-              id: 'email',
-              name: 'email',
-              type: 'email',
-              placeholder: 'Email',
+              id: "email",
+              name: "email",
+              type: "email",
+              placeholder: "Email",
             }}
           />
         </div>
@@ -40,10 +40,10 @@ const Cadastro = () => {
           <div className="container-telefone">
             <Input
               attribute={{
-                id: 'telefone',
-                name: 'telefone',
-                type: 'number',
-                placeholder: 'Telefone',
+                id: "telefone",
+                name: "telefone",
+                type: "number",
+                placeholder: "Telefone",
               }}
             />
           </div>
@@ -52,30 +52,30 @@ const Cadastro = () => {
         <div className="container-nacionalidade">
           <Input
             attribute={{
-              id: 'nacionalidade',
-              name: 'nacionalidade',
-              type: 'text',
-              placeholder: 'Nacionalidade',
+              id: "nacionalidade",
+              name: "nacionalidade",
+              type: "text",
+              placeholder: "Nacionalidade",
             }}
           />
         </div>
         <div className="container-dataNasc">
           <Input
             attribute={{
-              id: 'dataNascimento',
-              name: 'dataNascimento',
-              type: 'date',
-              placeholder: 'Data de Nascimento',
+              id: "dataNascimento",
+              name: "dataNascimento",
+              type: "date",
+              placeholder: "Data de Nascimento",
             }}
           />
         </div>
         <div className="container-senha">
           <Input
             attribute={{
-              id: 'senha',
-              name: 'senha',
-              type: 'password',
-              placeholder: 'Senha',
+              id: "senha",
+              name: "senha",
+              type: "password",
+              placeholder: "Senha",
             }}
           />
         </div>

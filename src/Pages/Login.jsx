@@ -1,11 +1,11 @@
-import React from 'react';
-import Input from '../components/Input/Input';
-import Title from '../components/Title';
-import Logo from '../assets/img/covid19.svg';
-import '../styles/global.css';
-import '../styles/login.css';
-import '../styles/logo.css';
-import '../styles/button.css';
+import React from "react";
+import Input from "../components/Input/Input";
+import Title from "../components/Title";
+import Logo from "../assets/img/covid19.svg";
+import "../styles/global.css";
+import "../styles/login.css";
+import "../styles/logo.css";
+import "../styles/button.css";
 
 function Login() {
   return (
@@ -20,20 +20,20 @@ function Login() {
         <div className="container-email">
           <Input
             attribute={{
-              id: 'email',
-              name: 'email',
-              type: 'email',
-              placeholder: 'Email',
+              id: "email",
+              name: "email",
+              type: "email",
+              placeholder: "Email",
             }}
           />
         </div>
         <div className="container-senha">
           <Input
             attribute={{
-              id: 'senha',
-              name: 'senha',
-              type: 'password',
-              placeholder: 'Senha',
+              id: "senha",
+              name: "senha",
+              type: "password",
+              placeholder: "Senha",
             }}
           />
         </div>
