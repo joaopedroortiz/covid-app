@@ -1,11 +1,11 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Cadastro from "./Pages/Cadastro.jsx";
-import Login from "./Pages/Login.jsx";
-import Menu from "./Pages/Menu.jsx";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Cadastro from './Pages/Cadastro.jsx';
+import Login from './Pages/Login.jsx';
+import Menu from './Pages/Menu.jsx';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Login />} />
