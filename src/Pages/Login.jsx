@@ -6,6 +6,7 @@ import "../styles/global.css";
 import "../styles/login.css";
 import "../styles/logo.css";
 import "../styles/button.css";
+import { BiRightArrowAlt } from "react-icons/bi";
 
 function Login() {
   return (
@@ -42,6 +43,14 @@ function Login() {
         </div>
         <div>
           <button className="btn">Cadastro</button>
+        </div>
+        <div className="container-link">
+          <h2>
+            <a href="#">
+              Esqueci minha senha
+              <BiRightArrowAlt />
+            </a>
+          </h2>
         </div>
       </div>
     </div>
