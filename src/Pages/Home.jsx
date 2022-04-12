@@ -7,12 +7,10 @@ function Home() {
   return (
     <div className="base-container">
       <div className="container-card">
-        <div>Menu</div>
-        <div>Titulo</div>
-        <div>Noticias</div>
-        <div>
-          <NavHome />
+        <div className="container-login">
+          <h1>Bem-Vindo</h1>
         </div>
+        <NavHome />
       </div>
     </div>
   );
