@@ -1,12 +1,10 @@
-.container-cardQuestion {
+.container-CardQuestions {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   position: relative;
   width: 90%;
   height: 90px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px 5px;
-  border: solid 1px #949494;
-  background-color: red;
 }

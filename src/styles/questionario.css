@@ -20,3 +20,9 @@
   flex-direction: column;
   position: static;
 }
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #716d6d;
+}
