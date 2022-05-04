@@ -20,6 +20,8 @@ function Questionario() {
           <CardQuestions />
           <CardQuestions />
           <CardQuestions />
+          <CardQuestions />
+          <CardQuestions />
         </div>
         <div className="container-navHome">
           <NavHome />
