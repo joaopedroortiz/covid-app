@@ -1,0 +1,35 @@
+.container-top {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  border-bottom: solid 1px #949494;
+}
+
+.container-top-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 25px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  color: #29454d;
+}
+.container-arrow {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-right: 50px;
+  width: 100%;
+  font-size: 30px;
+  color: #29454d;
+  cursor: pointer;
+}
