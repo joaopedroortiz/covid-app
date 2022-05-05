@@ -1,8 +1,8 @@
 import React from "react";
-import "./NavTittle.css";
+import "./NavTitle.css";
 import "../../styles/global.css";
 import { BsFillArrowLeftCircleFill } from "react-icons/bs";
-const NavTittle = () => {
+const NavTitle = () => {
   return (
     <div className="container-top">
       <div className="container-top-title">
@@ -14,4 +14,4 @@ const NavTittle = () => {
     </div>
   );
 };
-export default NavTittle;
+export default NavTitle;

@@ -1,0 +1,17 @@
+.textManual {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 5px;
+  height: 57px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: justify;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  /* or 179% */
+
+  color: #373737;
+}
