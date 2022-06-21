@@ -2,7 +2,7 @@ import React from "react";
 import NavHome from "../components/NavHome/NavHome";
 import "../styles/global.css";
 import "../styles/questionario.css";
-import NavTitle from "../components/CardQuestions/Title/TitleQuestions";
+import NavTitle from "../components/NavTittle/NavTitle";
 import CardQuestions from "../components/CardQuestions/CardQuestions";
 
 function Questionario() {
@@ -10,17 +10,9 @@ function Questionario() {
     <div className="base-container">
       <div className="container-card">
         <div className="container-navTittle">
-          <NavTitle />
+          <NavTitle text="Questionario" />
         </div>
         <div className="container-questions">
-          <CardQuestions />
-          <CardQuestions />
-          <CardQuestions />
-          <CardQuestions />
-          <CardQuestions />
-          <CardQuestions />
-          <CardQuestions />
-          <CardQuestions />
           <CardQuestions />
         </div>
         <div className="container-navHome">

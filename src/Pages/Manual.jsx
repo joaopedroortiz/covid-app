@@ -14,13 +14,6 @@ function Manual() {
         </div>
         <div className="container-manual">
           <CardManual />
-          <CardManual />
-          <CardManual />
-          <CardManual />
-          <CardManual />
-          <CardManual />
-          <CardManual />
-          <CardManual />
         </div>
         <div className="container-navHome">
           <NavHome />

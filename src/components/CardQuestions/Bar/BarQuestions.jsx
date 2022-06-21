@@ -21,7 +21,6 @@ function BarQuestions() {
           min={10}
           max={110}
         />
-        <Slider defaultValue={30} step={10} marks min={10} max={110} disabled />
       </Box>
     </div>
   );

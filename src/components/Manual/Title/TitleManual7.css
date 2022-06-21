@@ -1,0 +1,18 @@
+.titleManual {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+  padding: 5px 5px;
+  width: 212px;
+  height: 24px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: justify;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 131% */
+
+  color: #29454d;
+}
